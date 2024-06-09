@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-family:Helvetica; 
+}
+
+.header{
+  position: relative;
+}
+
+model-viewer {
+  width: 100%;
+  height: 40vh;
+  margin: 0 auto;
+  position: absolute;
+}
+
+
+.pop-up {
+  display: flex;
+}
+
